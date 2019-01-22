@@ -54,7 +54,9 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
+h4 {
+    font-size: 16px;
+}
 .container {
     width: 880px;
     margin: auto;
@@ -75,11 +77,12 @@ header nav {
 }
 
 header nav a {
+    margin-left: 15px;
+    justify-content: space-between;
     text-decoration: none;
     color: #b0b0b0;
     font-size: 25pt;
 }
-
 header nav a:hover {
     text-decoration: underline;
     color: black;
@@ -154,6 +157,7 @@ header .logo {
 /* Contact Styles */
 
 .contact p {
+    font-size: 15px;
     margin: 30px;
 }
 
@@ -161,6 +165,7 @@ header .logo {
 
 footer {
     text-align: center;
+    font-size: 15px;
     margin: 4%;
 }
 
